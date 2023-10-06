@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(162,100,210,1) 40%, rgba(212,57,111,1) 100%);
+    display: flex;
+    justify-content: center;
+    
+    
+}
+form{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    gap:70px
+    
+}
+
+table {
+    margin-top: 200px;
+    width: 60%;
+    height: 500px;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+    /* border-radius: px; */
+    background-color: white;
+    position: relative;
+    
+    border: 5px solid black;
+    box-shadow: 0 2px 12px;
+    
+}
+
+#year-input, #round-input {
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: pink;
+    color: blueviolet;
+    box-shadow: 0 2px 12px;
+    transition: 1s ease  all;
+
+}
+
+#year-input:hover, #round-input:hover {
+    background-color: blueviolet;
+    color: pink;
+}
+
+
+
+button {
+    height: 27px;
+    border-radius: 5px;
+    width: 80px;
+    background-color: pink;
+    color: blueviolet;
+    box-shadow: 0 2px 12px;
+    transition: 1s ease  all;
+
+}
+button:hover{
+    background-color: blueviolet;
+    color: pink;
+}
+
+
+
+
+
+tr:nth-child(odd){
+    background-color: pink;
+}
